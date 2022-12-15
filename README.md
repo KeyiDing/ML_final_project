@@ -1,5 +1,7 @@
 # Machine Learning Fall 2022 Final Project
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jJd_9gNRrQ3GDV-UTFUyZuaFPxgGeTXp?usp=sharing)
+
 ## Project Description
 We are trying to solve the problem of automating hate speech and offensive language detection.
 
