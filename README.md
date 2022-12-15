@@ -73,6 +73,7 @@ model.predict(sentence)
 ```python
 model.metrics(test_loader)
 ```
+Note: this method is only in 2 labels version
 > Parameters
   - `test_loader`: Dataloader for the testing dataset
 > Returns
