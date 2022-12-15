@@ -21,6 +21,19 @@ pip install -r requirements.txt
 
 ### Methods Documentation
 ```python
+create_train_and_test_set_balanced(X, y, train_ratio=0.8)
+```
+> Parameters
+  - `X`: array of sentence embeddings
+  - `y`: labels
+  - `train_ratio`: proportion of size of training set to
+> Returns
+  - `X_train`: Training data
+  - `X_rem`: Testing data
+  - `y_train`: Training labels
+  - `y_rem`: Testing labels
+---
+```python
 model.fit(train_loader, epochs=300, lr=1e-5, interval=100)
 ```
 > Parameters
