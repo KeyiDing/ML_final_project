@@ -14,11 +14,9 @@ pip install -r requirements.txt
 ```
 
 ## Quickstart
-### ML_project_3labels.ipynb
 `ML_project_3labels.ipynb` is a jupyter notebook file contains the 3 labels classifier model we wrote.
 
 
-### ML_project_2labels.ipynb
 `ML_project_2labels.ipynb` is a jupyter notebook file in which we combined the "Offensive" and "Hate" languages in the dataset together to make binary classification
 
 ### Methods Documentation
@@ -30,37 +28,37 @@ model.fit(train_loader, epochs=300, lr=1e-5, interval=100)
   - `epochs`: number of epochs in training
   - `lr`: learning rate of optimizer
   - `interval`: frequency to output loss information
-  
+---
 ```python
 model.validate(valid_loader)
 ```
 > Parameters
   - `valid_loader`: Dataloader for the validation dataset
 > Returns
-  The average validation loss
-
+  - The average validation loss
+---
 ```python
 model.accuracy(test_loader)
 ```
 > Parameters
   - `test_loader`: Dataloader for the testing dataset
 > Returns
-  Accuracy score of the model on the testing dataset
-
+  - Accuracy score of the model on the testing dataset
+---
 ```python
 model.predict(sentence)
 ```
 > Parameters
   - `sentence`: Input sentence to predict its category
 > Returns
-  `Hate`, `Offensive` or `neither`
-
+  - `Hate`, `Offensive` or `neither`
+---
 ```python
 model.metrics(test_loader)
 ```
 > Parameters
   - `test_loader`: Dataloader for the testing dataset
 > Returns
-  Evaluation metrics including accuracy, precision, recall, f1 score and a ROC graph
+  - Evaluation metrics including accuracy, precision, recall, f1 score and a ROC graph
 
 
