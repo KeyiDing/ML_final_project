@@ -1,5 +1,9 @@
 # Machine Learning Fall 2022 Final Project
 
+> 2 labels version
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SEaICDBxPQPES04iD7O9kuKhZ07jYOEU?usp=sharing)
+
+> 3 labels version
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jJd_9gNRrQ3GDV-UTFUyZuaFPxgGeTXp?usp=sharing)
 
 ## Project Description
