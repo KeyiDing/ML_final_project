@@ -1,0 +1,8 @@
+###### Requirements without Version Specifiers ######
+numpy
+pandas
+torch
+scikit-learn
+gensim
+collection
+matplotlib
